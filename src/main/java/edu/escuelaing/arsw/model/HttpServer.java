@@ -16,7 +16,7 @@ import java.io.*;
  * 
  * @author Johann Cepeda
  */
-public class HttpServer  {
+public class HttpServer {
 
     private static HttpServer _instance = new HttpServer();
     private boolean isRunning = true;
@@ -46,10 +46,11 @@ public class HttpServer  {
     public void startServer(String[] args) throws IOException {
         ServerSocket serverSocket = null;
         ExecutorService poolThread = Executors.newFixedThreadPool(20);
+        int port = getPort();
         try {
             serverSocket = new ServerSocket(35000);
         } catch (IOException e) {
-            System.err.println("Could not listen on port: 35000.");
+            System.err.println("Could not listen on port: " + port);
             System.exit(1);
         }
         System.out.println("Listo para recibir ...");
@@ -69,5 +70,13 @@ public class HttpServer  {
 
     public void shutDownServer() {
         isRunning = false;
+    }
+
+    static int getPort() {
+        if (System.getenv("PORT") != null) {
+            return Integer.parseInt(System.getenv("PORT"));
+        }
+
+        return 36000;
     }
 }
