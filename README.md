@@ -21,12 +21,12 @@ Para uso del proyecto requerimos clonar este repositorio. Siga los pasos:
 
 1. Clonamos el repositorio con ayuda de git
 ```
-git clone https://github.com/JohannCepeda16/ARSW-Lab3.git
+git clone https://github.com/JohannCepeda16/ARSW-Lab4.git
 ```
 
 2. Accedemos a la carpeta donde hemos clonado
 ```
-cd ARSW-Lab3
+cd ARSW-Lab4
 ```
 
 3. Compilamos nuestro proyecto para generar el target
@@ -61,12 +61,12 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.tx
 
 ## Diseño
 
-Para mas información del diseño del proyecto puede ver el siguiente [documento](https://github.com/JohannCepeda16/ARSW-Lab3/blob/main/resources/Networking.pdf)
+Para mas información del diseño del proyecto puede ver el siguiente [documento](https://github.com/JohannCepeda16/ARSW-Lab4/blob/main/resources/Threads.pdf)
 
 
 ## JavaDoc
 
-La documentación del proyecto la puede econtrar siguiendo este  [enlace](https://github.com/JohannCepeda16/ARSW-Lab3/tree/main/src/site/apidocs) o lo generamos con el siguiente comando 
+La documentación del proyecto la puede econtrar siguiendo este  [enlace](https://github.com/JohannCepeda16/ARSW-Lab4/tree/main/src/site/apidocs) o lo generamos con el siguiente comando 
 ```
 mvn javadoc:javadooc
 ```
