@@ -44,7 +44,7 @@ Si queremos ejecutar las pruebas de nuestro proyecto debemos ubicarnos en la rai
 ```
 mvn test
 ```
-![]("./resources/Test.PNG")
+![test](https://github.com/JohannCepeda16/ARSW-Lab4/blob/main/resources/Test.PNG)
 
 ## Programa hecho con
 
@@ -52,7 +52,7 @@ mvn test
 
 ## Actor
 
-* **Johann Cepeda** - [johanncepeda16](https://github.com/JohannCepeda16)
+* **Johann Cepeda** - [johanncepeda16]("https://github.com/JohannCepeda16")
 
 
 ## Licencia
