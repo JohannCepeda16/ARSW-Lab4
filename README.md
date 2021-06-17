@@ -44,6 +44,7 @@ Si queremos ejecutar las pruebas de nuestro proyecto debemos ubicarnos en la rai
 ```
 mvn test
 ```
+!(test)["./resources/Test.PNG"]
 
 ## Programa hecho con
 
